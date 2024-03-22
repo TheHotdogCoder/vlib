@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>VLib | Virtual Library PCSHS</title>
+        <link rel="stylesheet" href="/styles/styles.css">
+        <link rel="stylesheet" href="/styles/sidebar.css">
+        <link rel="stylesheet" href="/styles/index.css">
+        <script src="/script.js"></script>
+        <!--Exlusive-->
+        <link rel="stylesheet" href="styles/rs.css">
+    </head>
+    <body>
+        <div id="sidebar">
+            <h2 id="sbtitle" onclick="redirG(1)">VLib</h2>
+            <div id="sb1">
+                <p id="sbdiscover"><b>Discover</b></p>
+                <div class="sbbutton" onclick="redirG(4)">
+                    <img src="/img/browse.png" class="sbicons">
+                    <p class="sbbuttons">Browse</p>
+                </div>
+                <div class="sbbutton" onclick="redirG(7)">
+                    <img src="/img/categories.png" class="sbicons">
+                    <p class="sbbuttons">Categories</p>
+                </div>
+            </div>
+            <div id="sb2">
+                <p id="sblibrary"><b>Account</b></p>
+                <div class="sbbutton" onclick="redirG(6)">
+                    <img src="/img/saved.png" class="sbicons">
+                    <p class="sbbuttons">Saved</p>
+                </div>
+                <div class="sbbutton" onclick="redirG(5)">
+                    <img src="/img/history.png" class="sbicons">
+                    <p class="sbbuttons">History</p>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <img src="/img/logo.png" id="logo" onclick="redirG(1)">
+            <h1 id="title" onclick="redirG(1)">Pasig City Science High School</h1>
+            <p id="habout" class="sidelink" onclick="redirG(2)">About us</p>
+            <p id="hcontacts" class="sidelink" onclick="redirG(3)">Contacts</p>
+            <p id="haccount" class="sidelink" onclick="redirG(8)">Account</p>
+            <p id="subtitle" onclick="redirG(1)"><b>Virtual Library</b></p>
+            <div id="search">
+                <input type="text" id="searchinput" placeholder="Search">
+                <span><img src="/img/search.png" id="searchbutton" onclick="search()"></span>
+            </div>
+            <p class="category"><b>Grade 9 Research Papers</b></p>
+            <p class="catdesc">2014 - 2023</p>
+            <div id="rscontainer">
+                <div class="rsprev" onclick="redirRS(9,1)">
+                    <img src="/img/rs1.png" class="rsimg" id="rsimg1">
+                    <p class="rstitle">Assessing the Anti-Mitotic Property of the ethanolic crude extract of Mimosa Pudica using Allium Cepa Assay</p>
+                </div>
+                <div class="rsprev" onclick="redirRS(9,2)">
+                    <img src="/img/rs1.png" class="rsimg" id="rsimg1">
+                    <p class="rstitle">Metal Cleaning and Rust Removal Machinery using Electrolysis and Ultrasonic Waves</p>
+                </div>
+                <div class="rsprev" onclick="redirRS(9,3)">
+                    <img src="/img/rs1.png" class="rsimg" id="rsimg1">
+                    <p class="rstitle">Assisting Library Users through VLib: Virtual Library</p>
+                </div>
+                <div class="rsprev" onclick="redirRS(9,4)">
+                    <img src="/img/rs1.png" class="rsimg" id="rsimg1">
+                    <p class="rstitle">J.A.D.E. : Jeepney Assistant Driver Electronic</p>
+                </div>
+            </div>
+            <footer>
+            <p id="footer1">VLib - Virual Library</p>
+            <p id="footer2">SY 2023 - 2024</p>
+            </footer>
+        </div>
+    </body>
+</html>

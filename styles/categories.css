@@ -1,0 +1,11 @@
+#maintitle {
+    font-size: 40px;
+}
+.catcontainer {
+    display: inline-block;
+    margin: -5% 3% 0 0;
+    vertical-align: top;
+}
+footer {
+    margin-top: 3%;
+}
