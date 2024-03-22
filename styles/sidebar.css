@@ -1,31 +1,31 @@
-#sidebar {
-    position: fixed;
-    width: 10%;
-    height: 97%;
-    float: left;
-}
-#sbtitle {
-    font-size: 28px;
-}
-div.sbbutton {
-    margin: 0.5%;
-}
-#sbtitle, #sbdiscover, #sblibrary{
-    margin: 4% 4%;
-}
-#sbdiscover, #sblibrary{
-    font-size: 19.5px;
-}
-.sbicons {
-    position: static;
-    width: 15%;
-    height: 3%;
-    margin: 4%;
-    vertical-align: top;
-}
-.sbbuttons {
-    display: inline;
-    vertical-align: top;
-    padding-top: 5px;
-    font-size: 17px;
+#sidebar {
+    position: fixed;
+    width: 10%;
+    height: 97%;
+    float: left;
+}
+#sbtitle {
+    font-size: 28px;
+}
+div.sbbutton {
+    margin: 0.5%;
+}
+#sbtitle, #sbdiscover, #sblibrary{
+    margin: 4% 4%;
+}
+#sbdiscover, #sblibrary{
+    font-size: 19.5px;
+}
+.sbicons {
+    position: static;
+    width: 15%;
+    height: 3%;
+    margin: 4%;
+    vertical-align: top;
+}
+.sbbuttons {
+    display: inline;
+    vertical-align: top;
+    padding-top: 5px;
+    font-size: 17px;
 }
