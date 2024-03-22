@@ -1,4 +1,4 @@
-function redirRS(g,rsid) {
+function redirRS(g,rsid){
     if (rsid == null) {
         var rsidCall = "https://thehotdogcoder.github.io/vlib/rs/g" + g + ".html";
     } else {
