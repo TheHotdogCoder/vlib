@@ -1,0 +1,45 @@
+:root {
+    --p-light: #000000;
+    --p-dark: #FFFFFF;
+    --outline-light: #000000;
+    --outline-dark: #FFFFFF;
+
+    --temp-outline: #FF0000;
+}
+
+@media (max-width: 1280px) {
+    #sbContainer {
+        display: none;
+    }
+}
+
+div {
+    border: 2px solid var(--temp-outline);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sbContainer {
+    position: fixed;
+    width: 15%;
+    height: 98vh;
+    padding: 0 2vh;
+
+    border-right: 3px solid var(--outline-light);
+}
+
+#sbLabel {
+    font-size: 4em;
+}
+
+.sbIcons {
+    display: flex;
+    width: 18%;
+}
+
+.sbLinks {
+    display: flex, inline;
+    font-size: 2em
+}
