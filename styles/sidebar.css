@@ -4,25 +4,34 @@
     height: 97%;
     float: left;
 }
+
 #sbtitle {
     font-size: 28px;
 }
+
 div.sbbutton {
     margin: 0.5%;
 }
-#sbtitle, #sbdiscover, #sblibrary{
+
+#sbtitle,
+#sbdiscover,
+#sblibrary {
     margin: 4% 4%;
 }
-#sbdiscover, #sblibrary{
+
+#sbdiscover,
+#sblibrary {
     font-size: 19.5px;
 }
+
 .sbicons {
     position: static;
-    width: 15%;
-    height: 3%;
+    width: 3000px;
+    height: 30px;
     margin: 4%;
     vertical-align: top;
 }
+
 .sbbuttons {
     display: inline;
     vertical-align: top;
